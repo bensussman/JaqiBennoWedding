@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+
+.parallax { 
+    /* The image used */
+    background-image: url("Armstrong-Redwoods-State-Park.jpg");
+
+    /* Full height */
+    min-height: 10000px;
+
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hint {
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+  
