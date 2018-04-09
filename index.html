@@ -1,10 +1,46 @@
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div class="parallax">
-            <span class="hint">(scroll down)</span>
-        </div>
-    </body>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="parallax">
+    <span class="hint">(scroll down)</span>
+    <img id="sheep" src="sussman_farms.jpg"></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+
+  <!-- for debugging? -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <!-- /delete me-->
+
+  <script>
+  $(function () {
+
+		// create tween
+    var tween = new TimelineMax()
+			.add(TweenMax.to($("#sheep"), 1.2, {css:{width:"20px"}, ease:Power1.easeInOut}))
+			.add(TweenMax.to($("#sheep"), 2, {css:{width:"223px"}, ease:Power1.easeInOut}));
+
+    // init controller
+    var controller = new ScrollMagic.Controller();
+
+    // create a scene
+    new ScrollMagic.Scene({
+      duration: 10000,
+      offset: 0,
+    })
+    .setPin(".parallax")
+    .setTween(tween)
+    .addIndicators()
+    .addTo(controller); // assign the scene to the controller
+  });
+  </script>
+</body>
+
 </html>
