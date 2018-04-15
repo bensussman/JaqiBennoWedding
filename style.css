@@ -10,17 +10,18 @@ body, html {
     background-image: url("Armstrong-Redwoods-State-Park.jpg");
 
     /* Full height */
-    min-height: 10000px;
+    min-height: 100%;
+    overflow: hidden;
 
     /* Create the parallax scrolling effect */
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
-.hint {
+#hint {
     position: absolute;
     left: 0;
     top: 50vh;
@@ -31,7 +32,7 @@ body, html {
 
 #sheep {
     position: absolute;
-    left: 40vh;
-    top: 70vh;
-    width:10px;
+    left: 40%;
+    top: 70%;
+    width:0px;
 }
