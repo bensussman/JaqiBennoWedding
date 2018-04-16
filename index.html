@@ -45,8 +45,8 @@
       .add(TweenMax.to($("#sheep"), 1.0, make_props(400,"22%","70%")))
       .add(TweenMax.to($("#sheep"), 1.0, make_props(800,"100","65%")))
       .add(TweenMax.to($("#sheep"), 1.0, make_props(1600,"-200px","30%")))
-      .add(TweenMax.to($("#sheep"), 1.0, make_props(8000,"-4900px","-2300px")))
-      .add(TweenMax.to($("#headers"), 1.0, {css:{opacity:1.0},ease:Power1.easeInOut}));
+      .add(TweenMax.to($("#sheep"), 0.7, make_props(8000,"-4900px","-2300px")))
+      .add(TweenMax.to($("#headers"), 0.2, {css:{opacity:1.0},ease:Power1.easeInOut}));
 
     // init controller
     var controller = new ScrollMagic.Controller();
