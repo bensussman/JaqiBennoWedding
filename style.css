@@ -3,10 +3,6 @@ body, html {
     margin: 0;
     padding: 0;
     font-family:  Georgia, serif;
-    background-image: url("Armstrong-Redwoods-State-Park.jpg");
-    background-size: 100vw 100vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 h1 {
@@ -30,10 +26,11 @@ h1 {
 }
 
 .parallax { 
-    /* The image used 
-    background-image: url("Armstrong-Redwoods-State-Park.jpg");*/
-    
-    
+    /* The image used */
+    background-image: url("Armstrong-Redwoods-State-Park.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
     /* Full height */
     height: 100vh;
@@ -41,10 +38,6 @@ h1 {
 
     /* Create the parallax scrolling effect */
     position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 #hint {
