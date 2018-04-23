@@ -29,16 +29,22 @@ h1 {
     /* The image used */
     background-image: url("Armstrong-Redwoods-State-Park.jpg");
     background-size: 100vw 100vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
 
     /* Full height */
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 
     /* Create the parallax scrolling effect */
     position: fixed;
 }
+
+/*@media (max-width: 767px) {
+    .background {
+        background-attachment: initial;
+    }
+}*/
 
 .parallax {
     overflow: hidden;
