@@ -10,13 +10,13 @@ h1 {
 }
 
 #headers {
+    display: none;
     position: fixed;
     opacity: 0.0;
     text-align: center;
     top: 25%;
     left: 0;
     width: 100vw;
-    text-shadow: 2px 2px white;
     z-index: 100;
 }
 
@@ -31,6 +31,7 @@ h1 {
     background-size: 100vw 100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center center;
 
     /* Full height */
     height: 100vh;
