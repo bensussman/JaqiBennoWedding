@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family:  Georgia, serif;
+    background-color: rgb(229, 229, 229);
 }
 
 h1 {
@@ -74,4 +75,17 @@ h1 {
     height:100%;
     width:100%;
     z-index: 0;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFF;
+    line-height: 1.5em;
+    box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.33);
+}
+
+.home_sheep {
+    width: 180px;
 }
