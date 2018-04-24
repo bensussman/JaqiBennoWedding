@@ -6,27 +6,6 @@ body, html {
     background-color: rgb(229, 229, 229);
 }
 
-h1 {
-    font-style: italic;
-}
-
-#headers {
-    display: none;
-    position: fixed;
-    opacity: 0.0;
-    text-align: center;
-    top: 15%;
-    left: 0;
-    width: 100vw;
-    z-index: 100;
-}
-
-#headers > ul {
-    list-style-type: none;
-    font-size: 22px; 
-    line-height: 50px;
-}
-
 .background { 
     /* The image used */
     background-image: url("Armstrong-Redwoods-State-Park.jpg");
@@ -88,4 +67,30 @@ h1 {
 
 .home_sheep {
     width: 180px;
+}
+
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+#headers {
+    display: none;
+    position: fixed;
+    opacity: 0.0;
+    text-align: center;
+    top: 7%;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+}
+
+#headers > ul {
+    list-style-type: none;
+    font-size: 20px; 
+    line-height: 30px;
 }
