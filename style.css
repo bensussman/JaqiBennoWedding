@@ -95,6 +95,6 @@ h2 {
     line-height: 30px;
 }
 
-.advice li {
+.advice > li {
   margin-bottom:10px;
 }
