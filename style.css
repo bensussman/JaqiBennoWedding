@@ -6,7 +6,7 @@ body, html {
     background-color: rgb(229, 229, 229);
 }
 
-.background { 
+.background {
     /* The image used */
     background-image: url("Armstrong-Redwoods-State-Park.jpg");
     background-size: 100vw 100vh;
@@ -91,6 +91,10 @@ h2 {
 
 #headers > ul {
     list-style-type: none;
-    font-size: 20px; 
+    font-size: 20px;
     line-height: 30px;
+}
+
+.advice li {
+  margin-bottom:10px;
 }
